@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg,#8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);;
+}
+.card{
+    height: 520px;
+    width: 320px;
+    background-color: white;
+    border-radius: 8px;
+    /* for 1 by 1 column wise using properties */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card img{
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0 8px;
+    gap: 15px;
+}
+.amountBox{
+    height: 8%;
+    width: 80%;
+    background-color: #9599E2;
+    align-self: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amountBox .leftAmt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    gap: 15px;
+    margin: 5px;
+}
+.imgBox img{
+    height: 2rem;
+    width: 2rem;
+    gap: 10px;
+
+}
+.yearlyPlan p{
+    color: black;
+    font-weight: 800;
+}
+.rightAmt a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 8px;
+}
+#payBotton{
+    height: 8%;
+    width: 80%;
+    background-color: rgba(22, 22, 79);
+    align-self: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.cancelBox a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 800;
+}
